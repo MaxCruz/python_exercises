@@ -9,8 +9,8 @@ def fibonacci(n):
             a, b = b, a + b
 
 print """
-The python_exercises sequence starts with 0 and 1, each subsequent number is the sum of the previous two.
-This example iterates the sequence to the desired number
+The fibonacci sequence starts with 0 and 1, each subsequent number is the sum of the previous two.
+This example iterates the sequence to the desired number.
 """
 
 number= int(raw_input("Number of iterations:  "))
